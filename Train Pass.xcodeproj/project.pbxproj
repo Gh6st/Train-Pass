@@ -17,6 +17,7 @@
 		6463D15A20D061A000432484 /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6463D15420D061A000432484 /* Lato-Heavy.ttf */; };
 		6463D15B20D061A000432484 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6463D15520D061A000432484 /* Lato-Medium.ttf */; };
 		6463D15C20D061A000432484 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6463D15620D061A000432484 /* Lato-Regular.ttf */; };
+		64DD02F020D0C0E6000B1FC9 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64DD02EF20D0C0C7000B1FC9 /* Lato-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6463D15420D061A000432484 /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Heavy.ttf"; path = "Train Pass/Train Pass Fonts/Lato-Heavy.ttf"; sourceTree = SOURCE_ROOT; };
 		6463D15520D061A000432484 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Medium.ttf"; path = "Train Pass/Train Pass Fonts/Lato-Medium.ttf"; sourceTree = SOURCE_ROOT; };
 		6463D15620D061A000432484 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "Train Pass/Train Pass Fonts/Lato-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		64DD02EF20D0C0C7000B1FC9 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		6463D15020D0617A00432484 /* Train Pass Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				64DD02EF20D0C0C7000B1FC9 /* Lato-Black.ttf */,
 				6463D15320D061A000432484 /* Lato-Bold.ttf */,
 				6463D15420D061A000432484 /* Lato-Heavy.ttf */,
 				6463D15520D061A000432484 /* Lato-Medium.ttf */,
@@ -145,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64DD02F020D0C0E6000B1FC9 /* Lato-Black.ttf in Resources */,
 				6463D15A20D061A000432484 /* Lato-Heavy.ttf in Resources */,
 				6463D15720D061A000432484 /* Lato-Semibold.ttf in Resources */,
 				6463D13D20D05E1300432484 /* LaunchScreen.storyboard in Resources */,
