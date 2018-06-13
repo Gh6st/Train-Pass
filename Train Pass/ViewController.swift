@@ -65,16 +65,15 @@ class ViewController: UIViewController {
         let dateString = "\(dateFormatter.string(from: Date() as Date))"
         TimeDate.text = String(dateString)
         
-        // Time n Date Stroke
         let string = "\(dateFormatter.string(from: Date() as Date))"
         let attributedString = NSMutableAttributedString(string: string)
         
-        attributedString.addAttribute(NSAttributedStringKey.strokeColor, value: UIColor.black, range: NSRange(location: 0, length: 20))
+        attributedString.addAttribute(NSAttributedStringKey.strokeColor, value: UIColor.black, range: NSRange(location: 0, length: 19))
         
-        attributedString.addAttribute(NSAttributedStringKey.strokeWidth, value: -1.0, range: NSRange(location: 0, length: 20))
+        attributedString.addAttribute(NSAttributedStringKey.strokeWidth, value: -2.0, range: NSRange(location: 0, length: 19))
         
-        self.TimeDate.attributedText = attributedString
-    
+        TimeDate.attributedText = attributedString
+        
     }
     
     //ButtonAction
