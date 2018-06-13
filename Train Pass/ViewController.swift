@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         
         attributedString.addAttribute(NSAttributedStringKey.strokeColor, value: UIColor.black, range: NSRange(location: 0, length: 19))
         
-        attributedString.addAttribute(NSAttributedStringKey.strokeWidth, value: -2.0, range: NSRange(location: 0, length: 19))
+        attributedString.addAttribute(NSAttributedStringKey.strokeWidth, value: -3.0, range: NSRange(location: 0, length: 19))
         
         TimeDate.attributedText = attributedString
         
@@ -80,18 +80,18 @@ class ViewController: UIViewController {
     
     //Time n Date Animation
     @IBAction func activateButton(_ sender: UIButton) {
-    
-        UIView.animate(withDuration: 2.5, animations:{self.TimeDate.frame.origin.x += 125})
+        
+        UIView.animate(withDuration: 2.0 , delay: 0, options: [.repeat, .autoreverse, .curveEaseIn] , animations:{
+            self.TimeDate.frame.origin.x += 125})
         {_ in
-            UIView.animateKeyframes(withDuration: 2.5, delay: 00, options: [.autoreverse, .repeat], animations: {
+            UIView.animate(withDuration: 2.0 , delay: 0, options: [.repeat, .autoreverse, .curveEaseIn] , animations:{
                 self.TimeDate.frame.origin.x -= 125})
-            
         }
         
         //flashBarAnimation
-        UIView.animate(withDuration: 0.5, animations: {self.flashBar.alpha = 0.5})
+        UIView.animate(withDuration: 0.4, animations: {self.flashBar.alpha = 0.4})
         {_ in
-            UIView.animate(withDuration: 0.5, delay: 0.0, options: [.autoreverse, .repeat], animations: {self.flashBar.alpha = 0})
+            UIView.animate(withDuration: 0.4, delay: 0.0, options: [.autoreverse, .repeat], animations: {self.flashBar.alpha = 0})
             
         }
     }
